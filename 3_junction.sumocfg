@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-23 14:33:10 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="sim_files/3_junction.net.xml"/>
+		<route-files value="trips.trips.xml"/>
+        <additional-files value="sim_files/loops.add.xml"/>
+    </input>
+    <report>
+     <verbose value="true"/>
+     <no-step-log value="true"/>
+     <tripinfo-output value="static_3.trips.xml"/>
+   </report>
+</configuration>

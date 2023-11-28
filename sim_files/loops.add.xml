@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-23 14:37:36 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="ee1k3_0" lane="e1k3_0" pos="180.00" period="300.00" file="ee1k3_0.xml" length = "15"/>
+    <inductionLoop id="ee1k3_1" lane="e1k3_1" pos="180.00" period="300.00" file="ee1k3_1.xml" length = "15"/>
+    <inductionLoop id="ek1k2_0" lane="k1k2_0" pos="180.00" period="300.00" file="ek1k2_0.xml" length = "15"/>
+    <inductionLoop id="ek1k2_1" lane="k1k2_1" pos="180.00" period="300.00" file="ek1k2_1.xml" length = "15"/>
+    <inductionLoop id="ek2k1_0" lane="k2k1_0" pos="180.00" period="300.00" file="ek2k1_0.xml" length = "15"/>
+    <inductionLoop id="ek2k1_1" lane="k2k1_1" pos="180.00" period="300.00" file="ek2k1_1.xml" length = "15"/>
+    <inductionLoop id="ek2k3_0" lane="k2k3_0" pos="180.00" period="300.00" file="ek2k3_0.xml" length = "15"/>
+    <inductionLoop id="ek2k3_1" lane="k2k3_1" pos="180.00" period="300.00" file="ek2k3_1.xml" length = "15"/>
+    <inductionLoop id="ek3k2_0" lane="k3k2_0" pos="180.00" period="300.00" file="ek3k2_0.xml" length = "15"/>
+    <inductionLoop id="ek3k2_1" lane="k3k2_1" pos="180.00" period="300.00" file="ek3k2_1.xml" length = "15"/>
+    <inductionLoop id="en1k1_0" lane="n1k1_0" pos="180.00" period="300.00" file="en1k1_0.xml" length = "15"/>
+    <inductionLoop id="en1k1_1" lane="n1k1_1" pos="180.00" period="300.00" file="en1k1_1.xml" length = "15"/>
+    <inductionLoop id="en2k2_0" lane="n2k2_0" pos="180.00" period="300.00" file="en2k2_0.xml" length = "15"/>
+    <inductionLoop id="en2k2_1" lane="n2k2_1" pos="180.00" period="300.00" file="en2k2_1.xml" length = "15"/>
+    <inductionLoop id="en3k3_0" lane="n3k3_0" pos="180.00" period="300.00" file="en3k3_0.xml" length = "15"/>
+    <inductionLoop id="en3k3_1" lane="n3k3_1" pos="180.00" period="300.00" file="en3k3_1.xml" length = "15"/>
+    <inductionLoop id="es1k1_0" lane="s1k1_0" pos="180.00" period="300.00" file="es1k1_0.xml" length = "15"/>
+    <inductionLoop id="es1k1_1" lane="s1k1_1" pos="180.00" period="300.00" file="es1k1_1.xml" length = "15"/>
+    <inductionLoop id="es2k2_0" lane="s2k2_0" pos="180.00" period="300.00" file="es2k2_0.xml" length = "15"/>
+    <inductionLoop id="es2k2_1" lane="s2k2_1" pos="180.00" period="300.00" file="es2k2_1.xml" length = "15"/>
+    <inductionLoop id="es3k3_0" lane="s3k3_0" pos="180.00" period="300.00" file="es3k3_0.xml" length = "15"/>
+    <inductionLoop id="es3k3_1" lane="s3k3_1" pos="180.00" period="300.00" file="es3k3_1.xml" length = "15"/>
+    <inductionLoop id="ew1k1_0" lane="w1k1_0" pos="180.00" period="300.00" file="ew1k1_0.xml" length = "15"/>
+    <inductionLoop id="ew1k1_1" lane="w1k1_1" pos="180.00" period="300.00" file="ew1k1_1.xml" length = "15"/>
+</additional>
