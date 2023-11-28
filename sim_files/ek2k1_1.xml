@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-11-27 16:10:02 by Eclipse SUMO GUI Version 1.19.0
+<!-- generated on 2023-11-28 17:32:03 by Eclipse SUMO GUI Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -20,12 +20,19 @@
     </report>
 
     <traci_server>
-        <remote-port value="49316"/>
+        <remote-port value="21400"/>
     </traci_server>
 
 </configuration>
 -->
 
 <detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
-    <interval begin="0.00" end="1.00" id="ek2k1_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="300.00" id="ek2k1_1" nVehContrib="5" flow="60.00" occupancy="83.25" speed="3.11" harmonicMeanSpeed="0.46" length="5.00" nVehEntered="7"/>
+    <interval begin="300.00" end="600.00" id="ek2k1_1" nVehContrib="8" flow="96.00" occupancy="130.89" speed="1.48" harmonicMeanSpeed="0.47" length="5.00" nVehEntered="8"/>
+    <interval begin="600.00" end="900.00" id="ek2k1_1" nVehContrib="9" flow="108.00" occupancy="84.82" speed="1.48" harmonicMeanSpeed="0.54" length="5.00" nVehEntered="8"/>
+    <interval begin="900.00" end="1200.00" id="ek2k1_1" nVehContrib="7" flow="84.00" occupancy="94.38" speed="5.23" harmonicMeanSpeed="0.67" length="5.00" nVehEntered="9"/>
+    <interval begin="1200.00" end="1500.00" id="ek2k1_1" nVehContrib="13" flow="156.00" occupancy="140.47" speed="2.68" harmonicMeanSpeed="0.52" length="5.00" nVehEntered="11"/>
+    <interval begin="1500.00" end="1800.00" id="ek2k1_1" nVehContrib="2" flow="24.00" occupancy="43.84" speed="0.32" harmonicMeanSpeed="0.32" length="5.00" nVehEntered="4"/>
+    <interval begin="1800.00" end="2100.00" id="ek2k1_1" nVehContrib="5" flow="60.00" occupancy="77.80" speed="0.56" harmonicMeanSpeed="0.49" length="5.00" nVehEntered="6"/>
+    <interval begin="2100.00" end="2267.00" id="ek2k1_1" nVehContrib="2" flow="43.11" occupancy="43.75" speed="0.66" harmonicMeanSpeed="0.66" length="5.00" nVehEntered="4"/>
 </detector>
