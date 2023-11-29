@@ -6,18 +6,19 @@ class Junction:
         self.name = junction_name
         self.num_of_phases = num_of_gphases * 4
         self.green_phases, self.yellow_phases, self.red_phases = self.phase_creator()
-        self.roads = self.get_roads()
-        self.max_duration = [0,0,0,0]
+        self.loop_list = dict()
+        self.max_green = 34
+        self.timer = 0
 
     def phase_creator(self):
         green_phases = []
         yellow_phases = []
         red_phases = []
         for i in range(0,self.num_of_phases,4):
-            yellow_phases.append(i)
-            green_phases.append(i+1)
-            yellow_phases.append(i+2)
-            red_phases.append(i+3)
+            yellow_phases.append(i) # 0 4
+            green_phases.append(i+1) # 1
+            yellow_phases.append(i+2) # 2
+            red_phases.append(i+3) # 3
         
         return green_phases,yellow_phases,red_phases
     

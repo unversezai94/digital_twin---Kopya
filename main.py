@@ -13,10 +13,12 @@ j_1 = Junction("K1",4)
 j_2 = Junction("K2",4)
 j_3 = Junction("K3",4)
 
-
-a = ['k2k1','w1k1','s1k1','n1k1']
-b = ['k3k2','k1k2','s2k2','n2k2']
-c = ['e1k3','k2k3','s3k3','n3k3']
+print(j_1.yellow_phases)
+print(j_1.green_phases)
+print(j_1.red_phases)
+j_1.loop_list = ['k2k1','w1k1','s1k1','n1k1']
+j_2.loop_list = ['k3k2','k1k2','s2k2','n2k2']
+j_3.loop_list = ['e1k3','k2k3','s3k3','n3k3']
 
 """
 {'s1k1', 'k2k1', 'n1k1', 'w1k1'} -> {k2k1,w1k1,s1k1,n1k1} -> {ek2k1,ew1k1,es1k1,en1k1}
@@ -34,3 +36,4 @@ while traci.simulation.getMinExpectedNumber() > 0:
     
     
 traci.close()
+
