@@ -7,9 +7,8 @@ class Junction:
         self.num_of_phases = num_of_gphases * 4
         self.green_phases, self.yellow_phases, self.red_phases = self.phase_creator()
         self.loop_list = dict()
-        self.current_phase = 0
-        self.max_green = 50
-        self.counter = 0
+        self.max_green = 34
+        self.timer = 0
 
     def phase_creator(self):
         green_phases = []

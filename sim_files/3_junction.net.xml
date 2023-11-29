@@ -240,55 +240,55 @@
 
     <tlLogic id="TL_K1" type="static" programID="0" offset="0">
         <phase duration="2"  state="rrrryyyyrrrrrrrr"/>
-        <phase duration="16" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="15" state="rrrrGGGGrrrrrrrr"/>
         <phase duration="2"  state="rrrryyyyrrrrrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrryyyy"/>
-        <phase duration="16" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="15" state="rrrrrrrrrrrrGGGG"/>
         <phase duration="2"  state="rrrrrrrrrrrryyyy"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrryyyyrrrr"/>
-        <phase duration="13" state="rrrrrrrrGGGGrrrr"/>
+        <phase duration="12" state="rrrrrrrrGGGGrrrr"/>
         <phase duration="2"  state="rrrrrrrryyyyrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="yyyyrrrrrrrrrrrr"/>
-        <phase duration="13" state="GGGGrrrrrrrrrrrr"/>
+        <phase duration="12" state="GGGGrrrrrrrrrrrr"/>
         <phase duration="2"  state="yyyyrrrrrrrrrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="TL_K2" type="static" programID="0" offset="0">
         <phase duration="2"  state="rrrryyyyrrrrrrrr"/>
-        <phase duration="16" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="15" state="rrrrGGGGrrrrrrrr"/>
         <phase duration="2"  state="rrrryyyyrrrrrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrryyyy"/>
-        <phase duration="16" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="15" state="rrrrrrrrrrrrGGGG"/>
         <phase duration="2"  state="rrrrrrrrrrrryyyy"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrryyyyrrrr"/>
-        <phase duration="13" state="rrrrrrrrGGGGrrrr"/>
+        <phase duration="12" state="rrrrrrrrGGGGrrrr"/>
         <phase duration="2"  state="rrrrrrrryyyyrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="yyyyrrrrrrrrrrrr"/>
-        <phase duration="13" state="GGGGrrrrrrrrrrrr"/>
+        <phase duration="12" state="GGGGrrrrrrrrrrrr"/>
         <phase duration="2"  state="yyyyrrrrrrrrrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="TL_K3" type="static" programID="0" offset="0">
         <phase duration="2"  state="rrrryyyyrrrrrrrr"/>
-        <phase duration="16" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="15" state="rrrrGGGGrrrrrrrr"/>
         <phase duration="2"  state="rrrryyyyrrrrrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrryyyy"/>
-        <phase duration="16" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="15" state="rrrrrrrrrrrrGGGG"/>
         <phase duration="2"  state="rrrrrrrrrrrryyyy"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrryyyyrrrr"/>
-        <phase duration="13" state="rrrrrrrrGGGGrrrr"/>
+        <phase duration="12" state="rrrrrrrrGGGGrrrr"/>
         <phase duration="2"  state="rrrrrrrryyyyrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
         <phase duration="2"  state="yyyyrrrrrrrrrrrr"/>
-        <phase duration="13" state="GGGGrrrrrrrrrrrr"/>
+        <phase duration="12" state="GGGGrrrrrrrrrrrr"/>
         <phase duration="2"  state="yyyyrrrrrrrrrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrr"/>
     </tlLogic>

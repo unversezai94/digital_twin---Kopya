@@ -37,7 +37,7 @@ class Simulation:
             steps_todo -= 1
             
     def _get_phase(self,junction):
-        junction.curent_phase = traci.trafficlight.getPhase(f"TL_{junction.name}")
+        # junction.curent_phase = traci.trafficlight.getPhase(f"TL_{junction.name}")
         phase = traci.trafficlight.getPhase(f"TL_{junction.name}")
         if phase in junction.green_phases:
             return phase
